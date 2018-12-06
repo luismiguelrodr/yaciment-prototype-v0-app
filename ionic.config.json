@@ -1,5 +1,8 @@
 {
   "name": "yaciment-prototype-v0-app",
-  "integrations": {},
+  "integrations": {
+    "cordova": {},
+    "capacitor": {}
+  },
   "type": "angular"
 }

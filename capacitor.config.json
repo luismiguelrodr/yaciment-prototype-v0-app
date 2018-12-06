@@ -1,0 +1,6 @@
+{
+  "appId": "mx.yaciment",
+  "appName": "yaciment-prototype-v0-app",
+  "bundledWebRuntime": false,
+  "webDir": "www"
+}
