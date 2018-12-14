@@ -4,6 +4,20 @@
   </ion-toolbar>
 </ion-header>
 
+<ion-content padding>
+	<ion-list>
+		<ion-item class="text" *ngFor="let item of items | async">
+			{{item | json}}
+		</ion-item>
+	</ion-list>
+</ion-content>
+
+<ion-content padding>
+	<ion-button outline (click)="signInWithFacebook()">Login</ion-button>  
+  <ion-button outline (click)="signOut()">Logout</ion-button>
+</ion-content>
+
+
 <ion-content style="width: 80%; max-width: 350px; height: 80%; background-color:#ffffff; max-height: 170px;
   top:20px;  " align-self-center padding>
     
